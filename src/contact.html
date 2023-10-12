@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donut Rain</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Sedgwick+Ave+Display&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <!-- wrapper for sticky footer -->
+  <div class="wrapper">
+    <!-- nav bar -->
+    <nav>
+      <a href="../index.html" class="logo">
+        <span class="site-title">Donut Rain</span>
+      </a>
+      <label for="menu"><i class="fa fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="menu">
+      <ul class="navList">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- contact used formspree -->
+    <form action="https://formspree.io/f/{form_id}" method="post">
+      <label for="name">Name</label>
+      <input name="Name" id="name" type="text">
+      <label for="email">Email</label>
+      <input name="Email" id="email" type="email">
+      <label for="message">Message</label>
+      <textarea name="Message" id="message" rows="4" cols="10"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <!-- footer  -->
+    <footer class="short">
+      <ul>
+        <li><a href="#"><i class="fa fa-brands fa-facebook-f fa-xl"></i></a></li>
+        <li><a href="#"><i class="fa fa-brands fa-instagram fa-xl"></i></a></li>
+        <li><a href="#"><i class="fa fa-brands fa-twitter fa-xl"></i></a></li>
+      </ul>
+      <ul class="mini-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contact.html"  class="current">Contact</a></li>
+      </ul>
+      <p>© Copyright 2023 Donut Rain. All rights reserved.</p>
+      <p>Edward Mah</p>
+    </footer>
+  </div>
+</body>
+</html>

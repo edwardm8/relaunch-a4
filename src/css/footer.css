@@ -1,0 +1,63 @@
+/*icon styling*/
+i{
+  padding: 1rem;
+  color: white;
+}
+ 
+/*display flex for wrapper and sticky footer*/
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+form{
+  flex-grow: 1;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  width: 100%;
+  background-color: #451F55;
+
+  /*applies on contact page for sticky footer*/
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/*sticky footer*/
+nav {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+footer ul {
+  display: flex; 
+  justify-content: center;
+}
+
+footer p {
+  padding-bottom:1rem;
+}
+
+i:hover {
+  color: #F8C630;
+}
+
+/*navigation in footer*/
+.mini-nav a {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.mini-nav .current {
+  color:#F8C630;
+}
+
+.mini-nav {
+  padding-bottom: 1rem;
+}
+

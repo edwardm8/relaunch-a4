@@ -1,0 +1,64 @@
+body {
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: 'Staatliches', sans-serif;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-family: 'Staatliches', sans-serif;
+}
+
+a {
+  font-family: 'Staatliches', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Gabarito', sans-serif;
+}
+
+ul {
+  font-size: 22px;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+form label {
+  font-size: 25px;
+  font-family: 'Gabarito', sans-serif;
+}
+
+form button {
+  font-family: 'Gabarito', sans-serif;
+}
+
+.start {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-shadow: 1px 1px purple;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-decoration: none;
+}
+
+.start p {
+  padding: 1rem;
+
+  font-size: 30px;
+
+  font-family: 'Staatliches', cursive;
+}

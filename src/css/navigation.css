@@ -1,0 +1,68 @@
+/*nav bar*/
+nav {
+  display: block;
+
+  padding: 1rem;
+  
+  position: relative;
+}
+
+/*hide when horizontal bar on mobile*/
+nav ul {
+  display: none;
+  
+  gap: 2rem;
+
+  flex-direction: column;
+  
+  padding: 1rem;
+}
+
+/*hide checkbox*/
+nav input {
+  display: none;
+}
+
+nav label {
+  display: block;
+  float: right;
+  padding: 1rem;
+}
+
+/*checkbox for ham menu*/
+input:checked + ul {
+  display: flex;
+}
+
+nav a {  
+  color: white;
+}
+
+.logo {
+  color: white;
+}
+
+.current {
+  color:#F8C630;
+}
+
+a:hover {
+  color:#F8C630;
+}
+
+/*desktopshow horizontal nav bar, moblie show vertical ham menu*/
+@media screen and (width > 50rem) { 
+  nav ul{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: #451F55;
+    border-radius: 1rem;
+  }
+
+  nav label{
+    display: none;
+  }
+}
