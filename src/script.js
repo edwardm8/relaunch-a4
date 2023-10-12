@@ -4,6 +4,15 @@ import * as dat from 'lil-gui'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js'
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js'
 import typefaceFont from 'three/examples/fonts/helvetiker_regular.typeface.json'
+import  './css/contact.css'
+import  './css/footer.css'
+import  './css/gallery.css'
+
+import './css/navigation.css'
+import './css/startPage.css'
+import './css/style.css'
+import  './css/home.css'
+import './css/typography.css'
 
 THREE.ColorManagement.enabled = false
 

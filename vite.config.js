@@ -1,23 +1,29 @@
 const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env
 import { defineConfig } from 'vite';
+import {resolve} from 'path';
+
+const root = resolve(__dirname, 'src')
+const outDir = resolve(__dirname,'/dist')
+
 export default {
-	root: 'src/',
+	root,
 	publicDir: '../static/',
-	base: '/cpnt-260-a4/',
 	server:
 	{
 			host: true,
 			open: !isCodeSandbox // Open if it's not a CodeSandbox
 	},
 	build: {
-			outDir: '../dist',
+			outDir,
 			emptyOutDir: true,
 			sourcemap: true,
-			/*rollupOptions: {
+			rollupOptions: {
 				input: {
-					main: resolve(__die, 'index.html'),
-					nested: resolve(__dirname, 'nested/home.html'),
-				},
-			},*/
-	},
+					main: resolve(root, 'index.html'),
+					contact: resolve(root, 'contact.html'),
+					home: resolve(root,'home.html'),
+					gallery: resolve(root,'gallery.html'),
+				}
+			}
+	}
 }
