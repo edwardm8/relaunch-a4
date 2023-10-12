@@ -2,8 +2,8 @@ const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in proc
 import { defineConfig } from 'vite';
 import {resolve} from 'path';
 
-const root = resolve(__dirname, 'src')
-const outDir = resolve(__dirname,'/dist')
+const root = resolve(__dirname, 'src/')
+const outDir = resolve(__dirname,'./dist')
 
 export default {
 	root,
