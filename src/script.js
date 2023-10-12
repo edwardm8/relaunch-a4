@@ -7,7 +7,6 @@ import typefaceFont from 'three/examples/fonts/helvetiker_regular.typeface.json'
 import  './css/contact.css'
 import  './css/footer.css'
 import  './css/gallery.css'
-
 import './css/navigation.css'
 import './css/startPage.css'
 import './css/style.css'
