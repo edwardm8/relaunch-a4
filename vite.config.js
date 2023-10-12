@@ -17,7 +17,7 @@ export default {
 	build: {
 			outDir,
 			emptyOutDir: true,
-			sourcemap: true,
+			sounrcemap: true,
 			rollupOptions: {
 				input: {
 					main: resolve(root, 'index.html'),
