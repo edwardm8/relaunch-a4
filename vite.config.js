@@ -7,6 +7,7 @@ const outDir = resolve(__dirname,'/dist')
 
 export default {
 	root,
+	base: '/relaunch-a4/',
 	publicDir: '../static/',
 	server:
 	{
